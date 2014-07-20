@@ -4,7 +4,9 @@ require './config/enviroment'
 # It's helpful, but not entirely necessary to understand cron before proceeding.
 # http://en.wikipedia.org/wiki/Cron
 
-#base_path = "/Users/nigel/Documents/Code2/watch_AD"
+# run this comand from inside the root folder of this project to create
+# a crontab
+# ~$ whenever --update-crontab watch_AR_Disney
 
 set :output, { :standard => "#{ROOT}/log/watch.log", :error => "#{ROOT}/log/watch.errors.log" }
 
