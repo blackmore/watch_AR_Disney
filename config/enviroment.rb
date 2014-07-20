@@ -1,12 +1,26 @@
 
 ROOT = File.expand_path('../../', __FILE__)
 
-# set this ti the path of the folder you wish to watch
-SOURCE_PATH = "/Users/nigel/Documents/Code2/media/mediaserver/conform_AR_Disney"
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# TEST PATHS - COMMENT OUT IN PRODUCTION
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# set this to the path where to place the sources once finished
-PROCESSED_PATH = "#{SOURCE_PATH}/processed"
+SOURCE_PATH = "#{ROOT}/test_folders/"
+PROCESSED_PATH = "#{ROOT}/test_folders/processed"
+TARGET_ONE = "#{ROOT}/test_folders/TARGET_ONE"
+TARGET_TWO = "#{ROOT}/test_folders/TARGET_TWO"
 
-# set these to the target path of the watch folder for eztitles
-TARGET_ONE = "/Users/nigel/Documents/Code2/media/mediaserver/conform_AR_Disney/TARGET_ONE"
-TARGET_TWO = "/Users/nigel/Documents/Code2/media/mediaserver/conform_AR_Disney/TARGET_TWO"
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# TEST PATHS
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# uncomments this to set the path of the folder you wish to watch
+# SOURCE_PATH = "path/to/source_files"
+
+# uncomments this to set the path where to place the sources once finished
+# PROCESSED_PATH = "path/to/processed_files"
+
+# uncomments these to set the target path of the watch folder for eztitles
+# TARGET_ONE = "path/to/TARGET_ONE"
+# TARGET_TWO = "path/to/TARGET_TWO"
+
